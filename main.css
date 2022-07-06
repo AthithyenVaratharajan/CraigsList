@@ -1,0 +1,156 @@
+.homepage #catAbb,
+.homepage #go,
+.homepage .leftlinks #cl_app_beta,
+.no-js,
+p.more {
+  display: none;
+}
+
+#logo {
+  font-size: 2.5rem;
+}
+
+.homepage-search .querybox {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #464646;
+  font-size: 16px;
+}
+
+.menu.collapsible > li {
+  cursor: pointer;
+}
+
+.menu.collapsible > li.expand.s ul {
+  display: block;
+}
+
+.menu.collapsible > li ul {
+  display: none;
+}
+
+/* Your code here */
+*{
+  font-family:  "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: #F5F5F5;
+  color: #464646;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+}
+
+ul > li{
+  list-style: none;
+}
+
+a:visited{
+  color: #800080;
+}
+
+a:hover{
+  font-weight: bold;
+  color: #800080;
+}
+
+a > span:hover{
+  font-weight: bold;
+  color:#800080;
+}
+
+.page-container{
+  max-width: 1200px;
+}
+
+#leftbar{
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+#center{
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#rightbar{
+  float: left;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+footer{
+  clear: both;
+}
+
+#center > div{
+  float: left;
+  width: 33%;
+}
+
+#topban h2{
+  align-items: center;
+}
+
+ul.clfooter{
+  align-items: center;
+  border-top: 1px solid gray;
+  padding: 10px 0 10px 0;
+}
+
+ul.clfooter > li{
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before{
+ content: url('https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/attributes/assets/peace-symbol-emoji.png');
+}
+
+td {
+  border: 1px solid #333;
+  align-content: center;
+}
+
+td:hover{
+  background-color: lavender;
+}
+
+td.cal{
+  border-collapse: collapse;
+}
+
+td > a{
+  color: green;
+  font-weight: bold;
+}
+td > a:hover{
+  background-color: lavender;
+}
+
+td.past{
+  color: black;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+td.today{
+  background-color: darkviolet;
+
+}
+
+td.today > a{
+  background-color: darkviolet;
+  color: white;
+}
